@@ -132,7 +132,10 @@ a:hover {
   background-color: #f3f3f3c0;
   padding: 50px 30px;
 }
-
+.contact-section
+{
+  text-align: center;
+}
 .contact-section form,
 .contact-section h3 {
   text-align: justify;
@@ -158,7 +161,25 @@ form{
   font-family: 'Big Shoulders Text';
 font-size: larger;
        }
+.menu-section {
+  display: flex;
+  align-items: center;
+  background-color: #f3f3f3c0;
+  padding: 50px 30px;
+}
 
+.menu-section
+.menu-section {
+  text-align: justify;
+  width: 60%;
+  margin: auto;
+  font-family: 'Big Shoulders Text';
+  font-size: 1.8em;
+  font-size: 20px;
+  padding: 30px;
+  letter-spacing: 0.1em;
+
+}
 
 
 
