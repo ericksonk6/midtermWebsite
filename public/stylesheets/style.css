@@ -14,7 +14,10 @@ a {
 body{
   background-color: #d6e0e6;
 }
-
+a#navbarDropdown.nav-link.dropdown-toggle:active,
+a#navbarDropdown.nav-link.dropdown-toggle:focus {
+  outline: 0;
+}
 .nav-flex-row {
   display: flex;
   flex-direction: row;
@@ -146,6 +149,17 @@ a:hover {
   padding: 30px;
   letter-spacing: 0.1em;
 
+}
+nav{
+  text-decoration: none;
+}
+
+nav ul {
+  display:inline-block; /* Simply remove this.. easy. */
+}
+
+.dropdown{
+  margin-top: 0px;
 }
 
 form{
