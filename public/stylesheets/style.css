@@ -14,14 +14,7 @@ a {
 body{
   background-color: #d6e0e6;
 }
-.section-intro {
-  height: 820px;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 .nav-flex-row {
   display: flex;
   flex-direction: row;
@@ -55,7 +48,6 @@ h1{
 h10{
 }
 
-/* Links */
 a,
 a:focus,
 a:hover {
@@ -67,7 +59,7 @@ a:hover {
 .btn-secondary:hover,
 .btn-secondary:focus {
   color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
+  text-shadow: none;
   background-color: #789391;
   border: .05rem solid #fff;
 }
@@ -87,7 +79,7 @@ a:hover {
   height: auto;
 }
 
-.section-intro {
+.intro {
   background-image: url("../images/homepic.jpeg");
   height: 820px;
   background-size: cover;
@@ -96,25 +88,32 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
-.section-intro h1 {
+.intro h1 {
   text-align: center;
   color: #ffffff;
   font-size: 4em;
   font-weight: 700;
 }
-
+.intro {
+  height: 820px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .white{
   color: white;
 }
-.about-section {
+.about{
   display: flex;
   align-items: center;
   background-color: #f3f3f3c0;
   padding: 50px 30px;
 }
 
-.about-section p,
-.about-section h3 {
+.about p,
+.about h3 {
   text-align: justify;
   width: 60%;
   margin: auto;
@@ -126,18 +125,18 @@ a:hover {
 
 }
 
-.contact-section {
+.contact {
   display: flex;
   align-items: center;
   background-color: #f3f3f3c0;
   padding: 50px 30px;
 }
-.contact-section
+.contact
 {
   text-align: center;
 }
-.contact-section form,
-.contact-section h3 {
+.contact form,
+.contact h3 {
   text-align: justify;
   width: 100%;
   margin: auto;
@@ -153,7 +152,7 @@ form{
   font-family: 'Big Shoulders Text';
 
 }
-.section-intro h1 {
+.intro h1 {
   font-size: 2em;
 }
 
@@ -161,25 +160,6 @@ form{
   font-family: 'Big Shoulders Text';
 font-size: larger;
        }
-.menu-section {
-  display: flex;
-  align-items: center;
-  background-color: #f3f3f3c0;
-  padding: 50px 30px;
-}
-
-.menu-section
-.menu-section {
-  text-align: justify;
-  width: 60%;
-  margin: auto;
-  font-family: 'Big Shoulders Text';
-  font-size: 1.8em;
-  font-size: 20px;
-  padding: 30px;
-  letter-spacing: 0.1em;
-
-}
 
 
 
