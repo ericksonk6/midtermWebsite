@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100,300,400,500,600,700,800,900&display=swap');
+
+
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -6,3 +10,155 @@ body {
 a {
   color: #00B7FF;
 }
+
+body{
+  background-color: #d6e0e6;
+}
+.section-intro {
+  height: 820px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav-flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  width: 100%;
+  padding: 0;
+}
+
+.nav-flex-row li {
+  text-decoration: none;
+  list-style-type: none;
+  padding: 20px 15px;
+}
+
+.nav-flex-row li a {
+  font-family: 'Big Shoulders Text', cursive;
+  color: #ffffff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+h1{
+  font-family: Palatino;
+  font-weight: bolder;
+  color: #4f2523;
+}
+
+h10{
+}
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #789391;;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #789391;
+  border: .05rem solid #fff;
+}
+
+.nav-masthead .nav-link {
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.carousel-inner {
+  height: auto;
+}
+
+.section-intro {
+  background-image: url("../images/homepic.jpeg");
+  height: 820px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-intro h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 4em;
+  font-weight: 700;
+}
+
+.white{
+  color: white;
+}
+.about-section {
+  display: flex;
+  align-items: center;
+  background-color: #f3f3f3c0;
+  padding: 50px 30px;
+}
+
+.about-section p,
+.about-section h3 {
+  text-align: justify;
+  width: 60%;
+  margin: auto;
+  font-family: 'Big Shoulders Text';
+  font-size: 1.8em;
+  font-size: 20px;
+  padding: 30px;
+  letter-spacing: 0.1em;
+
+}
+
+.contact-section {
+  display: flex;
+  align-items: center;
+  background-color: #f3f3f3c0;
+  padding: 50px 30px;
+}
+
+.contact-section form,
+.contact-section h3 {
+  text-align: justify;
+  width: 100%;
+  margin: auto;
+  font-family: 'Big Shoulders Text';
+  font-size: 1.8em;
+  font-size: 20px;
+  padding: 30px;
+  letter-spacing: 0.1em;
+
+}
+
+form{
+  font-family: 'Big Shoulders Text';
+
+}
+.section-intro h1 {
+  font-size: 2em;
+}
+
+.margin{
+  font-family: 'Big Shoulders Text';
+font-size: larger;
+       }
+
+
+
+
